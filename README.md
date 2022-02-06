@@ -1,2 +1,2 @@
-# Tandy-Webring
+# Tandy Webring
 Json for the tandy webring
