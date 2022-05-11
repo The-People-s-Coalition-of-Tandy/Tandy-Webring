@@ -58,7 +58,7 @@ class WebRing extends HTMLElement {
             <p>
                 <a href="${sites[prevSiteIndex].url}">[Prev]</a>
             </p>
-                <img class="logo" src="https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Tandy-Webring/main/TandyLogo.png"></img>
+                <a href="https://www.pcotandy.org/"><img class="logo" src="https://the-people-s-coalition-of-tandy.github.io/Tandy-Webring/TandyLogo.png"></img></a>
             <p>
                 <a href="${sites[nextSiteIndex].url}">[Next]</a>
             </p>
