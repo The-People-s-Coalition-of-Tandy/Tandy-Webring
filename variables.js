@@ -12,8 +12,8 @@ var sites = [
       "url": "https://katarinamazur.com/"
     },
     {
-      "name": "juiliul",
-      "url": "https://juilie.github.io/JuiliuliuL/"
+      "name": "Julie Bodian",
+      "url": "https://julipode.net"
     },
     {
       "name": "Ko T. C.",
