@@ -1,4 +1,4 @@
-[
+var sites = [
     {
       "name": "The People's Coalition of Tandy",
       "url": "https://the-people-s-coalition-of-tandy.github.io/PCoTandy/"
@@ -16,7 +16,7 @@
       "url": "https://juilie.github.io/JuiliuliuL/"
     },
     {
-      "name": "Ko TC",
+      "name": "Ko T. C.",
       "url": "https://kotc.life/"
     }
   ]
