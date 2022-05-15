@@ -2,6 +2,10 @@ html {
     background-image: url("./Assets/tandyhour.gif");
 }
 
+body {
+    margin: 0;
+}
+
 .center {
     display: block;
     margin: 0 auto;
@@ -14,5 +18,96 @@ html {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+    /* margin-bottom: 10px ; */
+    /* width: fit-content; */
+}
+
+
+a:link.tab,
+a:visited.tab,
+a:hover.tab,
+a:active.tab {
+    text-decoration: none;
+    color: black;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20pt;
+    border: 1px dotted blue;
+    /* border-top: none; */
+    border-bottom: none;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-top-left-radius: 5px;
+
+    border-top-right-radius: 5px;
+}
+
+.tab:hover, .tab.active {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    box-shadow: -4px -4px 3px black;
+}
+
+
+code {
+    display: block;
+    background: #ddd;
+    color: #000;
+    border: 1px dotted #000;
+    padding: 6px;
+    font: 400 10pt 'Lucida Console', monospace;
+    width: fit-content;
+    max-width: 975px;
+}
+
+/* 
+.tab img {
+    width: 25px;
+    height: 25px;
+} */
+
+hr {
+    margin: 0px;
+}
+
+main {
+    padding: 5px 20px;
+    border: 2px double blue;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+table, th, td {
+    border:1px solid gray;
+    text-align: left;
+  }
+
+  table {
+      border-style: dashed;
+  }
+
+  th,td{
+      padding: 5px;
+      margin: 3px;
+  }
+
+
+@media only screen and (max-width: 1000px) {
+    main {
+        margin: 5px;
+    }
 }

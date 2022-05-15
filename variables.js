@@ -1,7 +1,7 @@
 var sites = [
     {
       "name": "The People's Coalition of Tandy",
-      "url": "https://the-people-s-coalition-of-tandy.github.io/PCoTandy/"
+      "url": "https://pcotandy.org"
     },
     {
       "name": "Enhydrax",

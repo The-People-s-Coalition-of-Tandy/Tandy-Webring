@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    <meta name="description" content="The People's Coalition of Tandy Webring">
+    <meta name="keywords" content="Webring">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="https://webring.pcotandy.org" />
+    <meta property="og:title" content="The Tandy Webring" />
+    <meta property="og:description" content="How much does culture influence creative thinking?" />
+    <meta property="og:image">
+    <link rel="stylesheet" href="index.css">
+
+    <script>
+        function buttonClick(e) {
+            e.src = "./Assets/submitInFixed1.png";
+        }
+
+        function buttonNormal(e) {
+            e.src = "./Assets/submitFixed1.png";
+        }
+
+        function buttonReturn(e) {
+            e.src = "./Assets/submitFixed1.png";
+
+            const form = document.querySelector("#signupForm");
+            if (form.checkValidity()) {
+                form.submit();
+            } else {
+                form.reportValidity();
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="center">
+        <img class="banner" src="./Assets/tandyBanner.png">
+        <nav>
+            <a class="tab" href="./index.html">
+                    <img src="Assets/COMMS09O.ICO">
+                    Info
+            </a>
+            <a  class="tab active" href="./join.html">
+                    <img src="Assets/COMMS12C.ICO">
+                    Join
+            </a>
+    
+    <a class="tab" href="./directory.html">
+            <img src="Assets/COMMS10D.ICO">
+            Directory
+    </a>
+    </nav>
+
+
+    <main>
+        <div class="feedback-form">
+            <form action="https://riku.miso.town/submit?user_id=5&label=Webring" method="post" id="signupForm"
+                name="signupForm">
+
+
+                <div class="field">
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" require placeholder="Email">
+                </div><br>
+
+                <div class="field">
+                    <label for="website">Website</label><br>
+                    <input type="text" name="website" id="website" required placeholder="Website">
+                </div><br>
+
+                <div class="field">
+                    <label for="description">Description</label><br>
+                    <textarea name="description" id="message" required placeholder="Description"></textarea>
+                </div>
+                <input style="visibility:hidden;" type="submit" value="Submit" class="submit-button">
+                <input type="hidden" name="redirect" value="https://pcotandy.org/formSuccess">
+            </form>
+            <img src="./Assets/submitFixed1.png" class="icon" onmousedown="buttonClick(this)"
+                onmouseup="buttonReturn(this)" onmouseout="buttonNormal(this)" alt="Submit Button">
+        </div>
+    </main>
+    </div>
+
+</body>
+
+</html>

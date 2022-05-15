@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <meta name="description" content="The People's Coalition of Tandy Webring">
+    <meta name="keywords" content="Webring">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="https://webring.pcotandy.org" />
+    <meta property="og:title" content="The Tandy Webring" />
+    <meta property="og:description" content="How much does culture influence creative thinking?" />
+    <meta property="og:image">
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="./variables.js"></script>
+
+
+</head>
+
+<body>
+    <div class="center">
+        <div class="center">
+            <img class="banner" src="./Assets/tandyBanner.png">
+            <nav>
+                <a class="tab" href="./index.html">
+                    <img src="Assets/COMMS09O.ICO">
+                    Info
+                </a>
+                <a class="tab" href="./join.html">
+                    <img src="Assets/COMMS12C.ICO">
+                    Join
+                </a>
+
+                <a class="tab active" href="./directory.html">
+                    <img src="Assets/COMMS10D.ICO">
+                    Directory
+                </a>
+            </nav>
+
+            <main>
+                <div id="members">
+                    <script>
+                        const members = document.querySelector('main');
+                        let stuff = '<table><tr><th>Name</th><th>Website</th>';
+                        for (i in sites) {
+                            console.log(i)
+                            stuff += `<tr><td>${sites[i].name}</td>`;
+                            stuff += `<td><a href="${sites[i].url}">${sites[i].url}</a></td></tr>`;
+                        }
+                        stuff += '</table>';
+                        members.innerHTML = stuff;
+                    </script>
+                </div>
+            </main>
+        </div>
+
+</body>
+
+</html>
