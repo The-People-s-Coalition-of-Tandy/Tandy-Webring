@@ -1,0 +1,137 @@
+html {
+    background-image: url("../Assets/tandyhour.gif");
+}
+
+body {
+    margin: 0;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+nav {
+    display: flex;
+    margin-top: 20px;
+    margin-right: auto;
+    gap: 10px;
+}
+
+.folder-divider {
+    position: absolute;
+    visibility: hidden;
+    width: 970px;
+    height: 2px;
+    background-color: rgb(236, 236, 213);
+    box-shadow: 2px -2px 2px rgba(0, 0, 0, 0.603);
+    top: 254px;
+    z-index: -1;
+}
+
+.tab:hover ~ .folder-divider {
+    visibility: visible;
+    z-index: 2;
+}
+
+.tab.active:hover ~ .folder-divider {
+    visibility: hidden;
+}
+
+a:link.tab,
+a:visited.tab,
+a:hover.tab,
+a:active.tab {
+    text-decoration: none;
+    color: black;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20pt;
+    border: 1px dotted rgb(77, 77, 70);
+    border-bottom: none;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(212, 212, 190);
+    margin-left: 2px;
+}
+
+.tab:hover,
+.tab:focus {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: 2px -2px 2px rgba(0, 0, 0, 0.603);
+    z-index: 3;
+    background-color: rgb(236, 236, 213);
+}
+
+.tab.active {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    box-shadow: 4px -4px 3px black;
+    z-index: 10;
+    background-color: beige;
+    margin-left: 0;
+}
+
+
+code {
+    display: block;
+    background: #ddd;
+    color: #000;
+    border: 1px dotted #000;
+    padding: 6px;
+    font: 400 10pt 'Lucida Console', monospace;
+    width: fit-content;
+    max-width: 975px;
+}
+
+hr {
+    margin: 0px;
+}
+
+main {
+    padding: 5px 20px;
+    border: 2px double rgb(209, 209, 190);
+    border-top: none;
+    background-color: beige;
+    min-height: 500px;
+    box-shadow: 2px -10px 0px rgb(207, 207, 186);;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid gray;
+    text-align: left;
+}
+
+table {
+    border-style: dashed;
+}
+
+th,
+td {
+    padding: 5px;
+    margin: 3px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    main {
+        margin: 5px;
+    }
+}
