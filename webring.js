@@ -41,7 +41,7 @@ insert.innerHTML = `<style>
             <p>
                 <a href="${sites[prevSiteIndex].url}">[Prev]</a>
             </p>
-                <a href="https://www.pcotandy.org/"><img class="logo" src="https://the-people-s-coalition-of-tandy.github.io/Tandy-Webring/TandyLogo.png"></img></a>
+                <a href="https://www.pcotandy.org/"><img class="logo" src="https://the-people-s-coalition-of-tandy.github.io/Tandy-Webring/Assets/TandyLogo.png"></img></a>
             <p>
                 <a href="${sites[nextSiteIndex].url}">[Next]</a>
             </p>

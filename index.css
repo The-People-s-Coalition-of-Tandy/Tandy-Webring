@@ -1,0 +1,18 @@
+html {
+    background-image: url("./Assets/tandyhour.gif");
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.portal {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}

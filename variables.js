@@ -12,11 +12,15 @@ var sites = [
       "url": "https://katarinamazur.com/"
     },
     {
-      "name": "Julie Bodian",
-      "url": "https://julipode.net"
-    },
-    {
       "name": "Ko T. C.",
       "url": "https://kotc.life/"
+    },
+    {
+      "name": "Wind Chime Calculator",
+      "url": "https://windchimecalculator.org"
+    },
+    {
+      "name": "Julie Bodian",
+      "url": "https://julipode.net"
     }
   ]
