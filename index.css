@@ -12,19 +12,12 @@ body {
     width: fit-content;
 }
 
-.portal {
-    width: 100%;
-}
-
 nav {
     display: flex;
-    /* justify-content: space-around; */
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     gap: 10px;
-    /* margin-bottom: 10px ; */
-    /* width: fit-content; */
 }
 
 
@@ -42,16 +35,16 @@ a:active.tab {
     gap: 5px;
     font-size: 20pt;
     border: 1px dotted blue;
-    /* border-top: none; */
     border-bottom: none;
     padding: 8px;
     margin-bottom: 10px;
     border-top-left-radius: 5px;
-
     border-top-right-radius: 5px;
 }
 
-.tab:hover, .tab.active {
+.tab:hover,
+.tab:focus,
+.tab.active {
     margin-bottom: 0px;
     margin-top: 10px;
     box-shadow: -4px -4px 3px black;
@@ -69,12 +62,6 @@ code {
     max-width: 975px;
 }
 
-/* 
-.tab img {
-    width: 25px;
-    height: 25px;
-} */
-
 hr {
     margin: 0px;
 }
@@ -91,19 +78,22 @@ main {
     width: 100%;
 }
 
-table, th, td {
-    border:1px solid gray;
+table,
+th,
+td {
+    border: 1px solid gray;
     text-align: left;
-  }
+}
 
-  table {
-      border-style: dashed;
-  }
+table {
+    border-style: dashed;
+}
 
-  th,td{
-      padding: 5px;
-      margin: 3px;
-  }
+th,
+td {
+    padding: 5px;
+    margin: 3px;
+}
 
 
 @media only screen and (max-width: 1000px) {
