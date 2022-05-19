@@ -4,9 +4,18 @@ var sites = [
       "url": "https://pcotandy.org"
     },
     {
+      "name": "Tetso Cube Light Ride",
+      "url": "https://tclr.pcotandy.org"
+    },
+    {
       "name": "Enhydrax",
       "url": "https://suneinyneeenan.github.io/Enhydrax/"
     },
+    {
+      "name": "OS Visualizer",
+      "url": "https://os.pcotandy.org"
+    },
+
     {
       "name": "Katarina Mazur",
       "url": "https://katarinamazur.com/"
