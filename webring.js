@@ -6,10 +6,11 @@ const matchedSiteIndex = sites.findIndex(
     (site) => site.url.startsWith(currentSite)
 );
 let prevSiteIndex = matchedSiteIndex - 1;
+
 if (prevSiteIndex === -1) prevSiteIndex = sites.length - 1;
 
 let nextSiteIndex = matchedSiteIndex + 1;
-if (nextSiteIndex > sites.length) nextSiteIndex = 0;
+if (nextSiteIndex == sites.length) nextSiteIndex = 0;
 const randomSiteIndex = this.getRandomInt(0, sites.length - 1);
 insert.innerHTML = `<style>
 .webring {
