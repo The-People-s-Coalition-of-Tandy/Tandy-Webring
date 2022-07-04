@@ -12,15 +12,15 @@
 
     <script>
         function buttonClick(e) {
-            e.src = "../Assets/submitInFixed1.png";
+            e.src = "./Assets/submitInFixed1.png";
         }
 
         function buttonNormal(e) {
-            e.src = "../Assets/submitFixed1.png";
+            e.src = "./Assets/submitFixed1.png";
         }
 
         function buttonReturn(e) {
-            e.src = "../Assets/submitFixed1.png";
+            e.src = "./Assets/submitFixed1.png";
 
             const form = document.querySelector("#signupForm");
             if (form.checkValidity()) {
@@ -34,23 +34,21 @@
 
 <body>
     <div class="center">
-        <img class="banner" src="../Assets/tandyBanner.png">
+        <img class="banner" src="./Assets/tandyBanner.png">
         <nav>
             <a class="tab" href="./index.html">
-                    <img src="../Assets/COMMS09O.ICO">
+                    <img src="Assets/COMMS09O.ICO">
                     Info
             </a>
             <a  class="tab active" href="./join.html">
-                    <img src="../Assets/COMMS12C.ICO">
+                    <img src="Assets/COMMS12C.ICO">
                     Join
             </a>
     
     <a class="tab" href="./directory.html">
-            <img src="../Assets/COMMS10D.ICO">
+            <img src="Assets/COMMS10D.ICO">
             Directory
     </a>
-
-    <div class="folder-divider"></div>
     </nav>
 
 
@@ -77,7 +75,7 @@
                 <input style="visibility:hidden;" type="submit" value="Submit" class="submit-button">
                 <input type="hidden" name="redirect" value="https://pcotandy.org/formSuccess">
             </form>
-            <img src="../Assets/submitFixed1.png" class="icon" onmousedown="buttonClick(this)"
+            <img src="./Assets/submitFixed1.png" class="icon" onmousedown="buttonClick(this)"
                 onmouseup="buttonReturn(this)" onmouseout="buttonNormal(this)" alt="Submit Button">
         </div>
     </main>

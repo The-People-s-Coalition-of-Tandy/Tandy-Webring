@@ -1,5 +1,5 @@
 html {
-    background-image: url("../Assets/tandyhour.gif");
+    background-image: url("./Assets/tandyhour.gif");
 }
 
 body {
@@ -15,29 +15,11 @@ body {
 nav {
     display: flex;
     margin-top: 20px;
+    margin-left: auto;
     margin-right: auto;
     gap: 10px;
 }
 
-.folder-divider {
-    position: absolute;
-    visibility: hidden;
-    width: 970px;
-    height: 2px;
-    background-color: rgb(236, 236, 213);
-    box-shadow: 2px -2px 2px rgba(0, 0, 0, 0.603), inset 2px 0px 2 rgba(0, 0, 0, 0.472);
-    top: 254px;
-    z-index: -1;
-}
-
-.tab:hover ~ .folder-divider {
-    visibility: visible;
-    z-index: 2;
-}
-
-.tab.active:hover ~ .folder-divider {
-    visibility: hidden;
-}
 
 a:link.tab,
 a:visited.tab,
@@ -47,37 +29,27 @@ a:active.tab {
     color: black;
 }
 
+
+
 .tab {
     display: flex;
     align-items: center;
     gap: 5px;
     font-size: 20pt;
-    border: 1px dotted rgb(77, 77, 70);
+    border: 1px dotted blue;
     border-bottom: none;
     padding: 8px;
     margin-bottom: 10px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    background-color: rgb(212, 212, 190);
-    margin-left: 2px;
 }
 
 .tab:hover,
-.tab:focus {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    box-shadow: 2px -2px 2px rgba(0, 0, 0, 0.603);
-    z-index: 3;
-    background-color: rgb(236, 236, 213);
-}
-
+.tab:focus,
 .tab.active {
     margin-bottom: 0px;
     margin-top: 10px;
-    box-shadow: 4px -4px 3px black;
-    z-index: 10;
-    background-color: beige;
-    margin-left: 0;
+    box-shadow: -4px -4px 3px black;
 }
 
 
@@ -98,12 +70,7 @@ hr {
 
 main {
     padding: 5px 20px;
-    border: 2px double rgb(209, 209, 190);
-    border-top: none;
-    background-color: beige;
-    min-height: 500px;
-    box-shadow: 0px -5px 2px rgba(0, 0, 0, 0.267), 2px -10px 0px rgb(207, 207, 186);
-    z-index: 2;
+    border: 2px double blue;
 }
 
 .banner {

@@ -12,35 +12,57 @@
 </head>
 
 <body>
-    <div class="center">
-        <img class="banner" src="./Assets/tandyBanner.png">
+    <div class="center folder-container">
+        <img class="banner" src="../Assets/tandyBanner.png">
         <nav>
+
             <a class="tab active" href="./index.html">
-                    <img src="Assets/COMMS09O.ICO">
-                    Info
+                <img src="../Assets/COMMS09O.ICO">
+                Info
             </a>
-            <a  class="tab" href="./join.html">
-                    <img src="Assets/COMMS12C.ICO">
-                    Join
+            <a class="tab" href="./join.html">
+                <img src="../Assets/COMMS12C.ICO">
+                Join
             </a>
-    
-    <a class="tab" href="./directory.html">
-            <img src="Assets/COMMS10D.ICO">
-            Directory
-    </a>
-    </nav>
+
+            <a class="tab" href="./directory.html">
+                <img src="../Assets/COMMS10D.ICO">
+                Directory
+            </a>
+            <div class="folder-divider"></div>
+        </nav>
 
         <main>
             <h1>Info</h1>
-            <p>Copy the HTML below into your website</p>
-            <code>
+            <p>Welcome Owner-Member! Below you will find information regarding our Tandy Webring technologies.
+            </p>
+            <div class="question">
+                <h3>How do I add the webring to my page?</h3>
+                <p>Copy the HTML below into your website</p>
+                <code>
+                    &lt;div id="tandyWebring"&gt;<br>
+                    &lt;script type="text/javascript"
+                    src="https://webring.pcotandy.org/variables.js"&gt;&lt;/script&gt;<br>
+                    &lt;script type="text/javascript"
+                    src="https://webring.pcotandy.org/webring.js"&gt;&lt;/script&gt;<br>
+                    &lt;/div&gt;</code>
+            </div>
 
-                &lt;div id="tandyWebring"&gt;<br>
-                &lt;script type="text/javascript"
-                src="https://webring.pcotandy.org/variables.js"&gt;&lt;/script&gt;<br>
-                &lt;script type="text/javascript" src="https://webring.pcotandy.org/webring.js"&gt;&lt;/script&gt;<br>
-                &lt;/div&gt;</code>
+            <div class="question">
+                <h3>What is a webring?</h3>
+                <p>A webring is a collection of websites linked together in a circular structure. The webring appears as
+                    a
+                    widget on the bottom of a website, with buttons linking to the next and previous websites in the
+                    ring.
+                    This gives online communities the power to direct people to other sites in that community instead of
+                    relying on search engines.</p>
+            </div>
+
         </main>
+        <div id="tandyWebring">
+            <script type="text/javascript" src="https://webring.pcotandy.org/variables.js"></script>
+            <script type="text/javascript" src="https://webring.pcotandy.org/webring.js"></script>
+        </div>
     </div>
 
 </body>

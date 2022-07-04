@@ -12,15 +12,15 @@
 
     <script>
         function buttonClick(e) {
-            e.src = "./Assets/submitInFixed1.png";
+            e.src = "../Assets/submitInFixed1.png";
         }
 
         function buttonNormal(e) {
-            e.src = "./Assets/submitFixed1.png";
+            e.src = "../Assets/submitFixed1.png";
         }
 
         function buttonReturn(e) {
-            e.src = "./Assets/submitFixed1.png";
+            e.src = "../Assets/submitFixed1.png";
 
             const form = document.querySelector("#signupForm");
             if (form.checkValidity()) {
@@ -33,30 +33,32 @@
 </head>
 
 <body>
-    <div class="center">
-        <img class="banner" src="./Assets/tandyBanner.png">
+    <div class="center folder-container">
+        <img class="banner" src="../Assets/tandyBanner.png">
         <nav>
             <a class="tab" href="./index.html">
-                    <img src="Assets/COMMS09O.ICO">
+                    <img src="../Assets/COMMS09O.ICO">
                     Info
             </a>
             <a  class="tab active" href="./join.html">
-                    <img src="Assets/COMMS12C.ICO">
+                    <img src="../Assets/COMMS12C.ICO">
                     Join
             </a>
     
     <a class="tab" href="./directory.html">
-            <img src="Assets/COMMS10D.ICO">
+            <img src="../Assets/COMMS10D.ICO">
             Directory
     </a>
+
+    <div class="folder-divider"></div>
     </nav>
 
 
     <main>
+        <h1>Membership Inquiry Form</h1>
         <div class="feedback-form">
             <form action="https://riku.miso.town/submit?user_id=5&label=Webring" method="post" id="signupForm"
                 name="signupForm">
-
 
                 <div class="field">
                     <label for="email">Email</label><br>
@@ -75,10 +77,14 @@
                 <input style="visibility:hidden;" type="submit" value="Submit" class="submit-button">
                 <input type="hidden" name="redirect" value="https://pcotandy.org/formSuccess">
             </form>
-            <img src="./Assets/submitFixed1.png" class="icon" onmousedown="buttonClick(this)"
+            <img src="../Assets/submitFixed1.png" class="icon" onmousedown="buttonClick(this)"
                 onmouseup="buttonReturn(this)" onmouseout="buttonNormal(this)" alt="Submit Button">
         </div>
     </main>
+    <div id="tandyWebring">
+        <script type="text/javascript" src="https://webring.pcotandy.org/variables.js"></script>
+        <script type="text/javascript" src="https://webring.pcotandy.org/webring.js"></script>
+    </div>
     </div>
 
 </body>
