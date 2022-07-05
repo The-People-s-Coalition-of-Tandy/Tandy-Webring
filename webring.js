@@ -42,7 +42,14 @@ insert.innerHTML = `<style>
             <p>
                 <a href="${sites[prevSiteIndex].url}">[Prev]</a>
             </p>
-                <a href="https://www.pcotandy.org/"><img class="logo" src="https://webring.pcotandy.org/Assets/TandyLogo.png"></img></a>
+            <div>
+                <a href="https://webring.pcotandy.org/">
+                    <img class="logo" src="https://webring.pcotandy.org/Assets/TandyLogo.png"></img>
+                </a>
+                <p>
+                <a href="${sites[randomSiteIndex].url}">[Rand]</a>
+                </p>
+            </div>
             <p>
                 <a href="${sites[nextSiteIndex].url}">[Next]</a>
             </p>
