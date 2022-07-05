@@ -46,7 +46,7 @@ insert.innerHTML = `<style>
                 <a href="https://webring.pcotandy.org/">
                     <img class="logo" src="https://webring.pcotandy.org/Assets/TandyLogo.png"></img>
                 </a>
-                <p>
+                <p style="margin: 0;">
                 <a href="${sites[randomSiteIndex].url}">[Rand]</a>
                 </p>
             </div>
