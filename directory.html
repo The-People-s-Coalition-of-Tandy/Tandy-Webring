@@ -44,7 +44,6 @@
                     const members = document.querySelector('#members');
                     let stuff = '<table><tr><th>Name</th><th>Website</th>';
                     for (i in sites) {
-                        console.log(i)
                         stuff += `<tr><td>${sites[i].name}</td>`;
                         stuff += `<td><a href="${sites[i].url}">${sites[i].url}</a></td></tr>`;
                     }
