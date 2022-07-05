@@ -64,6 +64,10 @@ a:active.tab {
     margin-left: 2px;
 }
 
+#tandyWebring {
+    margin-top: 20px;
+}
+
 @media only screen and (max-width: 600px) {
     .tab {
         margin-bottom: 5px;
