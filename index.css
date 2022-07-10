@@ -32,12 +32,12 @@ nav {
     top: 53px;
 }
 
-.tab:hover ~ .folder-divider {
+.tab:hover~.folder-divider {
     visibility: visible;
     z-index: 2;
 }
 
-.tab.active:hover ~ .folder-divider {
+.tab.active:hover~.folder-divider {
     visibility: hidden;
 }
 
@@ -154,7 +154,31 @@ td {
 
 
 @media only screen and (max-width: 1000px) {
+    table {
+        overflow-wrap: anywhere;
+    }
+
     main {
-        margin: 5px;
+        margin: 0 auto;
+        max-width: 87vw;
+    }
+
+    nav {
+        gap: 5px;
+    }
+
+    @keyframes open {
+        from {
+            transform: scaleY(0%);
+        }
+
+        to {
+            transform: scaleY(100%);
+        }
+    }
+
+    .folder-container {
+        animation: open 1s backwards cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        animation-delay: 0.2s;
     }
 }
