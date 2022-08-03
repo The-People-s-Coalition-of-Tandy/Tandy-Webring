@@ -23,10 +23,6 @@ var sites = [{
     "url": "https://www.windchimecalculator.org"
   },
   {
-    "name": "Andrew Dembling",
-    "url": "https://www.dembling.net"
-  },
-  {
     "name": "OS Visualizer",
     "url": "https://os.pcotandy.org"
   },
