@@ -7,6 +7,10 @@ var sites = [{
     "url": "https://www.pcotandy.org"
   },
   {
+    "name": "Tuesday's Universe",
+    "url": "https://tuesdaysuni.pcotandy.org"
+  },
+  {
     "name": "Tetso Cube Light Ride",
     "url": "https://tclr.pcotandy.org"
   },
