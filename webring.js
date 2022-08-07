@@ -18,7 +18,7 @@ insert.innerHTML = `<style>
   font: 100% system-ui, sans-serif;
 }
 
-.webring .navigator .logo {
+.webring .logo {
     height: 50px;
 }
 
