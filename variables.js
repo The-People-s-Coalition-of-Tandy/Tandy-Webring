@@ -15,6 +15,10 @@ var sites = [{
     "url": "https://tclr.pcotandy.org"
   },
   {
+    "name": "Phoebe Frances",
+    "url": "https://www.phoebe.digital"
+  },
+  {
     "name": "Enhydrax",
     "url": "https://suneinyneeenan.github.io/Enhydrax/"
   },
