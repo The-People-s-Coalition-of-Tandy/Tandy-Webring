@@ -16,7 +16,7 @@ var sites = [{
   },
   {
     "name": "Phoebe Frances",
-    "url": "https://phoebe.digital"
+    "url": "https://phoebe.digital/info/"
   },
   {
     "name": "Enhydrax",
