@@ -7,6 +7,10 @@ var sites = [{
     "url": "https://www.pcotandy.org"
   },
   {
+    "name": "Hobby Horse Press",
+    "url": "https://hobbyhorse.press"
+  },
+  {
     "name": "Tuesday's Universe",
     "url": "https://tuesdaysuni.pcotandy.org"
   },
