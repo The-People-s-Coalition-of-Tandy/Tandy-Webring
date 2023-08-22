@@ -43,15 +43,15 @@ insert.innerHTML = `<style>
                 <a href="${sites[prevSiteIndex].url}">[Prev]</a>
             </p>
             <div>
-                <a href="https://webring.pcotandy.org/">
+                <a href="https://webring.pcotandy.org/" target="_parent">
                     <img class="logo" src="https://webring.pcotandy.org/Assets/TandyLogo.png"></img>
                 </a>
                 <p style="margin: 0;">
-                <a href="${sites[randomSiteIndex].url}">[Rand]</a>
+                <a href="${sites[randomSiteIndex].url}" target="_parent">[Rand]</a>
                 </p>
             </div>
             <p>
-                <a href="${sites[nextSiteIndex].url}">[Next]</a>
+                <a href="${sites[nextSiteIndex].url}" target="_parent">[Next]</a>
             </p>
             
   </div>
