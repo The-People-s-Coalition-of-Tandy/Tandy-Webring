@@ -10,6 +10,8 @@ body {
     display: block;
     margin: 0 auto;
     width: fit-content;
+    min-width: 800px;
+    max-width: 90%;
 }
 
 nav {
@@ -36,7 +38,7 @@ a:active.tab {
     align-items: center;
     gap: 5px;
     font-size: 20pt;
-    border: 1px dotted blue;
+    border: 1px dotted black;
     border-bottom: none;
     padding: 8px;
     margin-bottom: 10px;
@@ -70,7 +72,7 @@ hr {
 
 main {
     padding: 5px 20px;
-    border: 2px double blue;
+    border: 2px double black;
 }
 
 .banner {

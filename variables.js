@@ -7,6 +7,22 @@ var sites = [{
     "url": "https://www.pcotandy.org"
   },
   {
+    "name": "Enhydrax",
+    "url": "https://suneinyneeenan.github.io/Enhydrax/"
+  },
+  {
+    "name": "Wind Chime Calculator",
+    "url": "https://www.windchimecalculator.org"
+  },
+  {
+    "name": "julie",
+    "url": "https://www.julipode.net"
+  },
+  {
+    "name": "Tetso Cube Light Ride",
+    "url": "https://tclr.pcotandy.org"
+  },
+  {
     "name": "Hobby Horse Press",
     "url": "https://hobbyhorse.press"
   },
@@ -15,25 +31,15 @@ var sites = [{
     "url": "https://tuesdaysuni.pcotandy.org"
   },
   {
-    "name": "Tetso Cube Light Ride",
-    "url": "https://tclr.pcotandy.org"
-  },
-  {
     "name": "Phoebe Frances",
     "url": "https://phoebe.digital/info"
   },
-  {
-    "name": "Enhydrax",
-    "url": "https://suneinyneeenan.github.io/Enhydrax/"
-  },
+
   {
     "name": "Katarina Mazur",
     "url": "https://katarinamazur.com/"
   },
-  {
-    "name": "Wind Chime Calculator",
-    "url": "https://www.windchimecalculator.org"
-  },
+
   {
     "name": "OS Visualizer",
     "url": "https://os.pcotandy.org"
@@ -41,9 +47,5 @@ var sites = [{
   {
     "name": "Ko T. C.",
     "url": "https://kotc.life/"
-  },
-  {
-    "name": "Julie Bodian",
-    "url": "https://www.julipode.net"
   }
 ]
