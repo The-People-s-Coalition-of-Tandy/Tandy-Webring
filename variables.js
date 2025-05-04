@@ -15,6 +15,10 @@ var sites = [{
     "url": "https://www.windchimecalculator.org"
   },
   {
+    "name": "Dagmar Zuniga",
+    "url": "https://dagmarzuniga.neocities.org/"
+  },
+  {
     "name": "julie",
     "url": "https://www.julipode.net"
   },
