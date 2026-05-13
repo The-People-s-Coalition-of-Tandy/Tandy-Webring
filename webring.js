@@ -7,10 +7,11 @@ const matchedSiteIndex = sites.findIndex(
 );
 let prevSiteIndex = matchedSiteIndex - 1;
 
-if (prevSiteIndex === -1) prevSiteIndex = sites.length - 1;
+if (matchedSiteIndex === -1) prevSiteIndex = sites.length - 1;
+else if (prevSiteIndex === -1) prevSiteIndex = sites.length - 1;
 
 let nextSiteIndex = matchedSiteIndex + 1;
-if (nextSiteIndex == sites.length) nextSiteIndex = 0;
+if (matchedSiteIndex === -1 || nextSiteIndex >= sites.length) nextSiteIndex = 0;
 const randomSiteIndex = this.getRandomInt(0, sites.length - 1);
 insert.innerHTML = `<style>
 .webring {

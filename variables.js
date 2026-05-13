@@ -20,7 +20,7 @@ var sites = [{
   },
   {
     "name": "julie",
-    "url": "https://www.julipode.net"
+    "url": "https://julipode.net"
   },
   {
     "name": "Tetso Cube Light Ride",
